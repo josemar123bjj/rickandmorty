@@ -10,7 +10,7 @@ body {
     background: #f0f2f5;
     margin: 0;
     padding: 20px;
-    background-image: url('./bg.jpg');
+    background-image: url('./bggoku.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .search-box {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #pageInput {
@@ -63,17 +63,20 @@ h1 {
     background: #000000c5;
     border-radius: 10px;
     padding: 10px;
-    width: 200px;
+    width: 300px;
+    height: 500px;
     text-align: center;
     color: #fff;
     transition: all 200ms ease-in-out;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    box-shadow: rgba(254, 220, 0, 0.4) -5px 5px, rgba(221, 196, 34, 0.3) -10px 10px, rgba(228, 193, 18, 0.2) -15px 15px, rgba(200, 176, 18, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 100%;
+    width: 200px;
+    height: 100%;
+    gap: px;
     transition: all 200ms ease-in-out;
+    object-fit: contain;
 }
 
 .card:hover {
@@ -81,7 +84,7 @@ h1 {
 }
 
 .card:hover h3 {
-    color: #0ce768;
+    color: #e7220c;
     text-shadow: 0 2px 8px #0ce768;
 }
 
@@ -90,7 +93,7 @@ h1 {
 }
 
 .card h3 {
-    margin: 10px 0 5px;
+    margin-top: -60px;
     font-size: 22px;
     color: #ffffff;
     font-weight: bolder;
